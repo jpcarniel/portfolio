@@ -122,3 +122,17 @@
     align-items: center;
   }
 }
+
+.btn.btn-sm.btn-outline-secondary:hover {
+  background: linear-gradient(300deg, #00bfff, #04e0c3, #0de3eb);
+  background-size: 180% 180%;
+  animation: gradient-animation 2s ease infinite;
+}
+
+.header:hover {
+  color: white;
+}
+
+.header:hover {
+  color: #df901a;
+}
