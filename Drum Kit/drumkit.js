@@ -1,4 +1,3 @@
-
 for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
     
     document.querySelectorAll(".drum")[i].addEventListener("click", function() {
@@ -43,10 +42,6 @@ function playSound(key) {
         case "d":
             var tom4 = new Audio('sounds/tom-4.mp3');
             tom4.play();
-            break;
-        case "a":
-            var tom2 = new Audio('sounds/tom-2.mp3');
-            tom2.play();
             break;
         case "j":
             var snare = new Audio('sounds/snare.mp3');
