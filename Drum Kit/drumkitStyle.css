@@ -54,7 +54,8 @@ footer {
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 3px 4px 0 #f3dbdb;
+  border: 10px solid #970814;
   opacity: 0.5;
 }
 
@@ -78,4 +79,14 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+.drum:hover {
+  box-shadow: 0 0 20px yellow;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #f3dbdb;
+  border: 10px solid #970814;
+  opacity: 0.5;
 }
